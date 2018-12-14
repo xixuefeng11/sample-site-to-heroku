@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<header id="header">
+	    <div class="container-fluid">
+
+		    <div id="logo" class="pull-left">
+		    	<a href="#intro" class="scrollto desktop-version"><img src="images/logos/logo 1-01.svg"></a>
+		    	<a href="#intro" class="scrollto mobile-version mobile-menu"><img src="images/icons/menu.svg"></a>
+		    	<a href="#intro" class="scrollto mobile-version"><img src="images/logos/logo 2.svg"></a>
+		    </div>
+
+		     <nav id="nav-menu-container">
+		        <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+			        <li>
+			        	<a href="#intro" class="desktop-version"><img src="images/icons/embed.svg">embed</a>
+			        	<a href="#intro" class="mobile-version"><img src="images/icons/embed.svg"></a>
+			        </li>
+			        <li>
+			        	<a href="#about" class="desktop-version"><img src="images/icons/share.svg">share</a>
+			        	<a href="#about" class="mobile-version"><img src="images/icons/share.svg"></a>
+			        </li>
+			        <li>
+			        	<div class="search-area">
+			        		<input id = 'search' type="text" name="search" placeholder="search" class="desktop-version" />
+			        		<label id = 'go-search'><img src="images/icons/search 1.svg"></label>
+			        	</div>
+			        </li>
+			        <!-- <li><a href="#portfolio">Portfolio</a></li>
+			        <li><a href="#team">Team</a></li>
+			        <li class="menu-has-children"><a href="" class="sf-with-ul">Drop Down</a>
+			            <ul style="display: none;">
+			              	<li><a href="#">Drop Down 1</a></li>
+			              	<li><a href="#">Drop Down 3</a></li>
+			              	<li><a href="#">Drop Down 4</a></li>
+			              	<li><a href="#">Drop Down 5</a></li>
+			            </ul>
+			        </li>
+			        <li><a href="#contact">Contact</a></li> -->
+		        </ul>
+		     </nav><!-- #nav-menu-container -->
+	    </div>
+	</header>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form calc-area input-fixed">
+				<!-- <div class="row page-title-div mobile-version">
+					<div class="col-md-12 title-area p-l-10">
+						<span class="">
+							<h2>Body Fat Calculator</h2>
+							<h5>By Bogna Haponiuk</h5>
+						</span>
+					</div>
+				</div> -->
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area top-input-area">
+									<label id = 'weight-label' class='placeholder' style="">Body weight</label>
+									<input id = 'weight' class="input100 rela gra-border top-input-amount men-input" type="text" name="weight-name" placeholder="">
+									<select id = 'weight-unit-id' class="unit-select gra-border top-select-amount" type="text" name="weight-unit">
+										<option value="4535927370">µg</option>
+										<option value="453592.37">mg</option>
+										<option value="453.59237">g</option>
+										<option value="45.359237">dag</option>
+										<option value="0.45359237">kg</option>
+										<option value="0.0004535924">t</option>
+										<option value="7000">gr</option>
+										<option value="256">dr</option>
+										<option value="16">oz</option>
+										<option value="1">lb</option>
+										<option value="0.0714286">stone</option>
+										<option value="0.0005">US ton</option>
+										<option value="0.000446429">Long ton</option>
+										<option value="">Earths</option>
+										<option value="">me</option>
+										<option value="">u</option>
+										<option value="">oz t</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="wrap-input100 validate-input" data-validate="Type first name">
+								<div class="input-area bottom-input-area">
+									<label id = 'waist-label' class='placeholder' style="">Waist</label>
+									<input id = 'waist' class="input100 rela gra-border bottom-input-amount men-input" type="text" name="waist-name">
+									<select id = 'waist-unit-id' class="unit-select gra-border bottom-select-amount" type="text" name="waist-unit">
+										<option value="">mm</option>
+										<option value="">cm</option>
+										<option value="">m</option>
+										<option value="">km</option>
+										<option value="">in</option>
+										<option value="">ft</option>
+										<option value="">yd</option>
+										<option value="">mi</option>
+										<option value="">nmi</option>
+										<!-- <option value="">feet/inchs</option>
+										<option value="">meters/centimeters</option> -->
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area top-input-area">
+									<label id = 'women-id' class='placeholder title' style=""><img src="images/icons/women.svg">Required for women only:</label>
+								</div>
+							</div>
+
+							<div class="wrap-input100 validate-input" data-validate="Type forearm">
+								<div class="input-area bottom-input-area">
+									<label id = 'forearm-title' class='placeholder' style="">Forearm</label>
+									<input id = 'forearm' class="input100 rela gra-border mid-input-amount women-input" type="text" name="forearm-name" placeholder="">
+									<select id = 'forearm-unit-id' class="unit-select gra-border mid-select-amount" type="text" name="forearm-unit">
+										<option value="">mm</option>
+										<option value="">cm</option>
+										<option value="">m</option>
+										<option value="">km</option>
+										<option value="">in</option>
+										<option value="">ft</option>
+										<option value="">yd</option>
+										<option value="">mi</option>
+										<option value="">nmi</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area mid-input-area">
+									<label id = 'wrist-title' class='placeholder' style="">Wrist</label>
+									<input id = 'wrist' class="input100 rela gra-border mid-input-amount women-input" type="text" name="wrist-name" placeholder="">
+									<select id = 'wrist-unit-id' class="unit-select gra-border mid-select-amount" type="text" name="wrist-unit">
+										<option value="">mm</option>
+										<option value="">cm</option>
+										<option value="">m</option>
+										<option value="">km</option>
+										<option value="">in</option>
+										<option value="">ft</option>
+										<option value="">yd</option>
+										<option value="">mi</option>
+										<option value="">nmi</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area bottom-input-area">
+									<label id = 'hip-title' class='placeholder' style="">Hip</label>
+									<input id = 'hip' class="input100 rela gra-border bottom-input-amount women-input" type="text" name="hip-name" placeholder="">
+									<select id = 'hip-unit-id' class="unit-select gra-border bottom-select-amount" type="text" name="hip-unit">
+										<option value="">mm</option>
+										<option value="">cm</option>
+										<option value="">m</option>
+										<option value="">km</option>
+										<option value="">in</option>
+										<option value="">ft</option>
+										<option value="">yd</option>
+										<option value="">mi</option>
+										<option value="">nmi</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area top-input-area">
+									<label id = 'result-men' class='placeholder title' style=""><img src="images/icons/men.svg">Result - Men</label>
+								</div>
+							</div>
+
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area bottom-input-area">
+									<label id = 'body-fat-men-title' class='placeholder' style="">Body Fat%</label>
+									<input id = 'body-fat-men' class="input100 rela gra-border bottom-input-amount width-not-combo not-need-combo" type="text" name="body-fat-men-name">
+									<label class='unit-result gra-border not-combo' style="">%</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="input-area top-input-area">
+									<label id class='placeholder title' style=""><img src="images/icons/women.svg">Result - Women</label>
+								</div>
+							</div>
+
+							<div class="wrap-input100 validate-input" data-validate="Type first name">
+								<div class="input-area bottom-input-area">
+									<label id = 'body-fat-women-title' class='placeholder' style="">Body Fat%</label>
+									<input id = 'body-fat-women' class="input100 rela gra-border bottom-input-amount width-not-combo not-need-combo" type="text" name="body-fat-women-name">
+									<label class='unit-result gra-border not-combo' style="">%</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 spec1">
+						<div class="block spec-block1">
+							<div class="wrap-input100 validate-input height-40" data-validate="Type first name">
+								<div class="input-area top-input-area spec-area1">
+									<label id = 'advanced-mode-label' class='gra-border-spec1 spec-label1' style="">Advanced mode</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 spec1">
+						<img src="images/icons/back.svg" class="width-38">
+					</div>
+				</div>
+				<div class="block desktop-version">
+					<div class="wrap-input100 validate-input" data-validate="">
+						<div class="normal-input-area" align="center">
+							<label id = 'similar-body-calc' class='placeholder title' style="">Check out 14 similar body measurements calculators</label>
+						</div>
+					</div>
+				</div>
+				<div class="row desktop-version">
+					<div class="col-md-6">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-input-area top-input-area">
+									<div id = 'bmi' class="input100 rela gra-border normal-input-amount move-to-middle more" type="text" name="weight-name">
+										<div class="row move-to-middle">
+											<div class="col-md-12 move-to-middle">
+												<span>BMI(body mass index)</span>
+												<img src="images/icons/arrow 1.svg" class="letter">
+											</div>
+											<!-- <div class="col-md-2 move-to-middle">
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-input-area top-input-area">
+									<div id = 'bai' class="input100 rela gra-border normal-input-amount move-to-middle more" type="text" name="weight-name">
+										<div class="row move-to-middle">
+											<div class="col-md-12 move-to-middle">
+												<span>BAI</span>
+												<img src="images/icons/arrow 1.svg" class="letter">
+											</div>
+											<!-- <div class="col-md-2 move-to-middle">
+											</div> -->
+										</div>
+									</div>
+									<!-- <label id = 'bmi' class='placeholder title gra-border top-input-amount' style="">BMI(body mass index)</label> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row desktop-version">
+					<div class="col-md-6">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-input-area top-input-area">
+									<div id = 'ideal-weight' class="input100 rela gra-border normal-input-amount move-to-middle more" type="text" name="weight-name">
+										<div class="row move-to-middle">
+											<div class="col-md-12 move-to-middle">
+												<span>Ideal weight</span>
+												<img src="images/icons/arrow 1.svg" class="letter">
+											</div>
+											<!-- <div class="col-md-2 move-to-middle">
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="block">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-input-area top-input-area">
+									<div id = '14more' class="input100 rela gra-border normal-input-amount move-to-middle more" type="text" name="weight-name">
+										<div class="row move-to-middle">
+											<div class="col-md-12 move-to-middle">
+												<span>...14 more</span>
+												<img src="images/icons/arrow 1.svg" class="letter">
+											</div>
+											<!-- <div class="col-md-2">
+											</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<form class="contact100-form validate-form calc-area">
+			</form>
+			<form class="contact100-form validate-form exp-area">
+				<div class="col-md-12">
+					<div class="row page-title-div">
+						<div class="col-md-12 title-area p-l-10">
+							<span class="">
+								<h2>Body Fat Calculator</h2>
+								<h5>By Bogna Haponiuk</h5>
+							</span>
+						</div>
+					</div>
+					<div class="row open-exp-mobile-area mobile-version">
+						<div class="open-exp-mobile">
+							<span class='glyphicon glyphicon-plus' style="color: #ffffff; font-size: 25px;">+</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 mobile-content">
+					<div class="row small-title desktop-version">
+						<div class="col-md-12">
+							<span>Table of contents:</span>
+						</div>
+					</div>
+					<div class="row mobile-version">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-top-right-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="font-size: 20px; font-weight: bold;">
+										Table of contents:
+									</label>
+									<span>
+										<img src="images/icons/arrow 2.svg" class='control-exp-content' style="position: absolute; top: 15%; left: 90%;">
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-top-right-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										The composition of human body
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-mid-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										What is body fat?
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-mid-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										How to calculate body fat?
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-mid-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										Is my body fat percentage normal?
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-mid-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										Why should I control my body fat?
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-mid-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										Alternative methods of measuring body fat
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-mid-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px"></i>
+										How to reduce body fat?
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="block m-b-1">
+							<div class="wrap-input100 validate-input" data-validate="">
+								<div class="normal-content-area normal-bottom-right-radius" align="center">
+									<label id = 'similar-body-calc' class='placeholder title normal-title' style="">
+										<i class="fa fa-chevron-right" style="font-size:20px; font-weight: 100"></i>
+										Is fat so bad?
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row desktop-version">
+						<!-- <div class="col-md-12"> -->
+							<span class="explaination-paragraph">
+								<p>This body fat calculator is a tool designed to help you estimate the percentage of body fat in your total body weight.
+								If you ever wondered what is your body fat percentage, this is a perfect place to find out.We will explain to you in detail not only what is the importance of this information, but also how to calculate the body fat (including some alternative methods for measuring it) and give you some general guidelines regarding reducing your body fat.</p>
+							</span>
+							<span class="explaination-paragraph">
+								<h3 style="font-weight: bold">The composition of human body</h3>
+								<p class="next-title-exp">More than 98% of the human body is composed of six elements: oxygen, carbon, hydrogen, nitrogen, calcium, and phosphorus. Potassium, sulfur, sodium, chlorine, and magnesium are responsible for another almost 1%. These are 11 most important, so called non-trace elements. Regarding the molecules, the most expressed in human body is of course water, which takes about 65% of mass, followed by proteins of mass are hydroxyapatite, carbohydrates and nucleic acids.
+								</p>
+							</span>
+						<!-- </div> -->
+					</div>
+					<div class="row desktop-version">
+						<div class="col-md-12 p-t-30">
+							<img src="images/test-banner.jpg" class="exp-banner-img">
+						</div>
+					</div>
+				</div>
+			</form>
+			<div class="contact100-more flex-col-c-m banner-area">
+				<div class="row">
+					<div class="col-md-3 menu">
+						<ul>
+							<li><img src="images/icons/math 3-01.svg"></li>
+							<li><img src="images/icons/chemistry 3-01.svg"></li>
+							<li><img src="images/icons/construction 3.svg"></li>
+							<li><img src="images/icons/health 3.svg"></li>
+							<li><img src="images/icons/conversion 3.svg"></li>
+							<li><img src="images/icons/food 3.svg"></li>
+							<li><img src="images/icons/finance 3.svg"></li>
+							<li><img src="images/icons/sport 3.svg"></li>
+							<li><img src="images/icons/ecology 3.svg"></li>
+							<li><img src="images/icons/statistic 3.svg"></li>
+							<li><img src="images/icons/everyday life 3.svg"></li>
+							<li><img src="images/icons/physic 3.svg"></li>
+							<li><img src="images/icons/others 3.svg"></li>
+						</ul>
+					</div>
+					<div class="col-md-9 banner">
+						<div class="row">
+							<img src="images/test-banner.jpg" style="height: 494px;">	
+						</div>
+						<div class="row">
+							<img src="images/test-banner.jpg" style="height: 185px;">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="row footer">
+		<a href="#" class="back-to-top right-80">
+			<img src="images/icons/social media menu.svg">
+		</a>
+		<a href="#" class="back-to-top">
+			<img src="images/icons/up button.svg">
+		</a>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="js/bodyfatcalc.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+		// console.log(men_body_fat(60, 1, 60, 1));
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
